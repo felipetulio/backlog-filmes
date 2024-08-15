@@ -19,7 +19,7 @@ Este sistema foi concebido para servir de aprendizado pessoal em Javascript. A i
 
 ## Funcionalidades
 
-- Realiza uma busca geral de livros cadastrados no banco;
+- Realiza uma busca geral de filmes cadastrados no banco;
 -
 
 ## Tecnologias Utilizadas

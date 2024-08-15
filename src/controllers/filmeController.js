@@ -11,5 +11,17 @@ export default class Filmes {
         }
     }
 
+    async CadastrarFilme(req, res){
+        try {
+            const filmeCadastrado = await filmeModel.create(req.body);
+            res.json({ message: 'Filme criado com sucesso!', filmeCadastrado} );
+        }
+        catch(err){
+            res.status(500).json({ erro: err.message });
+        }
+    }
+
+
+
 }
 
