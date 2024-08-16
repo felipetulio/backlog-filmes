@@ -1,6 +1,4 @@
-# Nome do projeto
-
-Sistema de Backlog de conteúdos
+# Sistema de Backlog de conteúdos
 
 ## Índice
 
@@ -20,6 +18,7 @@ Este sistema foi concebido para servir de aprendizado pessoal em Javascript. A i
 ## Funcionalidades
 
 - Realiza uma busca geral de filmes cadastrados no banco;
+- Realiza o cadastro de filmes no banco;
 -
 
 ## Tecnologias Utilizadas
@@ -34,17 +33,22 @@ Para instalar e configurar o projeto localmente, siga os passos abaixo:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/usuario/nome-do-projeto.git
+git clone https://github.com/felipetulio/backlog-filmes.git
 ```
 
 ```bash
 # Navegue até o diretório do projeto
-cd nome-do-projeto
+cd nome-da-pasta
 ```
 
 ```bash
 # Instale as dependências
 npm install
+```
+
+```bash
+# Atualize as dependências (caso necessário)
+npm update
 ```
 
 ## Uso
@@ -68,7 +72,7 @@ Outra possibilidade é:
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT.
+Este projeto está licenciado sob a **General Public License (GNU)**.
 
 ## Contato
 
